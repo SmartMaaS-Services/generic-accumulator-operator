@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<operator xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="FIWARE" name="Generic Accumulator" version="0.1.0">
+
+    <details>
+        <title>Generic Accumulator Operator</title>
+        <homepage>https://github.com/yclausen/generic-accumulator-operator</homepage>
+        <authors>Yvonne Clausen &lt;yvonne.clausen@fiware.org&gt;</authors>
+        <email>yvonne.clausen@fiware.org</email>
+        <image></image>
+        <smartphoneimage></smartphoneimage>
+        <description>Merge all entities of a type into one list. It acts as an accumulator.</description>
+        <longdescription>DESCRIPTION.md</longdescription>
+        <changelog>doc/changelog.md</changelog>
+        <doc>doc/userguide.md</doc>
+        <license>MIT</license>
+        <issuetracker>https://github.com/yclausen/generic-accumulator-operator/issues</issuetracker>
+    </details>
+
+    <requirements>
+        <!-- Add any extra requirements here -->
+        <!-- <feature name="${feature-name}" /> -->
+    </requirements>
+
+    <preferences>
+    </preferences>
+
+    <wiring>
+        <inputendpoint name="entityInput" type="text" label="Input for entities" friendcode="list"/>
+        <outputendpoint name="listOutput" type="text" label="Accumulated list of entities" description="" friendcode="entity-list"/>
+    </wiring>
+
+    <scripts>
+        <script src="js/main.js"/>
+    </scripts>
+
+</operator>

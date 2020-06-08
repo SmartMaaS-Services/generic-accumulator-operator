@@ -1,0 +1,1 @@
+Merge all entities of a type into one list. It acts as an accumulator.
