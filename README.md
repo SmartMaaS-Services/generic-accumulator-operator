@@ -1,6 +1,6 @@
-# Generic Accumulator Operator operator
+# Generic Accumulator Operator
 
-The Generic Accumulator Operator operator is a WireCloud operator that provides ...
+The Generic Accumulator Operator operator is a WireCloud operator that merge all entities into one list. It acts as an accumulator.
 
 ## Build dependencies
 
