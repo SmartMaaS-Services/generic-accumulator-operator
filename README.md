@@ -2,6 +2,10 @@
 
 The Generic Accumulator Operator operator is a WireCloud operator that merge all entities into one list. It acts as an accumulator.
 
+<p align="center">
+    <img src="src/doc/generic_accumulator_operator.png" alt="Generic Accumulator Operator" width="450" height="340">
+</p>
+
 ## Build dependencies
 
 Be sure to have installed [Node.js](https://nodejs.org/) in your system. For example, you can install it on Ubuntu and Debian running the following commands:
